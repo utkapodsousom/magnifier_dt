@@ -1,0 +1,31 @@
+{
+  "name": "magnifier-dt",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "normalize-css": "^8.0.1",
+    "bootstrap": "^4.2.1",
+    "wow": "wow-mit#^1.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "overrides": {
+    "normalize-css": {
+      "main": "normalize.css"
+    },
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.min.css",
+        "dist/js/bootstrap.min.js"
+      ]
+    },
+    "wow": {
+      "main": [
+        "css/libs/animate.css",
+        "dist/wow.min.js"
+      ]
+    }
+  }
+}
