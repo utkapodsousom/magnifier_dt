@@ -20,7 +20,14 @@
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['Roboto:400,500,700:cyrillic']
+        }
+      });
+    </script>
   </head>
   <body>
     <div class="mk-wrapper">
@@ -28,7 +35,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <div class="header__logo"><img src="images/logo.png" alt=""></div>
+              <a href="." class="header__logo"><img src="images/logo.png" alt=""></a>
               <h2 class="header__title">3D увеличитель для смартфона</h2>
               <h3 class="header__subtitle">Смотрите ваши любимые фильмы и фото в хорошем качестве где угодно!</h3>
               <ul class="header-list">
@@ -45,35 +52,41 @@
               <!-- /.header-list -->
               <div class="timer">
                 <p class="timer__remain">Предложение действительно:</p>
-                <div class="timer__block">
-                  <div class="timer__digits">
-                    <span class="hour1">0</span><span class="hour2">0</span>
+                <div class="timer-wrap">
+                  <div class="timer__block">
+                    <div class="timer__digits">
+                      <span class="hour1">0</span>
+                      <span class="hour2">0</span>
+                    </div>
+                    <span class="timer__text">часов</span>
                   </div>
-                  <span class="timer__text">часов</span>
-                </div>
-                <div class="timer__block">
-                  <div class="timer__digits">
-                    <span class="minute1">0</span><span class="minute2">0</span>
+                  <div class="timer__block">
+                    <div class="timer__digits">
+                      <span class="minute1">0</span>
+                      <span class="minute2">0</span>
+                    </div>
+                    <span class="timer__text">минут</span>
                   </div>
-                  <span class="timer__text">минут</span>
-                </div>
-                <div class="timer__block">
-                  <div class="timer__digits">
-                    <span class="second1">0</span><span class="second2">0</span>
+                  <div class="timer__block">
+                    <div class="timer__digits">
+                      <span class="second1">0</span>
+                      <span class="second2">0</span>
+                    </div>
+                    <span class="timer__text">секунд</span>
                   </div>
-                  <span class="timer__text">секунд</span>
                 </div>
+                <!-- /.timer-wrap -->
               </div>
             </div>
             <!-- /.col-md-6 -->
             <img src="images/product.png" alt="" class="header__product">
-            <div class="col-md-6">
+            <div class="col-md-4 offset-md-2">
               <div class="header-cta">
                 <img src="images/arrow.png" alt="" class="arrow">
                 <div class="header-cta__wrap">
                   <div class="header-price">
                     <div class="price"><span class="old"><s>2400p.</s></span><span class="new">1200p.</span></div>
-                    <div class="discount">-50%</div>
+                    <div class="discount"><span>-50%</span></div>
                   </div>
                   <!-- /.header-price -->
                   <form class="header-form" method="POST">
