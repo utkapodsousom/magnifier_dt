@@ -1,53 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="">
   <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>magnifier_dt</title>
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <!-- Place favicon.ico in the root directory -->
 
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css" />
     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/bower_components/wow/css/libs/animate.css" />
+    <link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
     <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main.css" />
     <!-- endbuild -->
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
       WebFont.load({
         google: {
-          families: ['Roboto:400,500,700:cyrillic']
+          families: ["Roboto:400,500,700:cyrillic"]
         }
       });
     </script>
   </head>
   <body>
     <div class="mk-wrapper">
-      <div class="header">
+      <header class="header">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <a href="." class="header__logo"><img src="images/logo.png" alt=""></a>
+            <div class="col-lg-4 col-md-6">
+              <a href="." class="header__logo"
+                ><img src="images/logo.png" alt=""
+              /></a>
               <h2 class="header__title">3D увеличитель для смартфона</h2>
-              <h3 class="header__subtitle">Смотрите ваши любимые фильмы и фото в хорошем качестве где угодно!</h3>
+              <h3 class="header__subtitle">
+                Смотрите ваши любимые фильмы и фото в хорошем качестве где
+                угодно!
+              </h3>
               <ul class="header-list">
-                <li>
-                  <p>Стильный и легкий</p>
-                </li>
-                <li>
-                  <p>Компактный. Легко носить с собой</p>
-                </li>
-                <li>
-                  <p>Подходит для всех видов мобильных телефонов</p>
-                </li>
+                <li><p>Стильный и легкий</p></li>
+                <li><p>Компактный. Легко носить с собой</p></li>
+                <li><p>Подходит для всех видов мобильных телефонов</p></li>
               </ul>
               <!-- /.header-list -->
               <div class="timer">
@@ -55,8 +54,7 @@
                 <div class="timer-wrap">
                   <div class="timer__block">
                     <div class="timer__digits">
-                      <span class="hour1">0</span>
-                      <span class="hour2">0</span>
+                      <span class="hour1">0</span> <span class="hour2">0</span>
                     </div>
                     <span class="timer__text">часов</span>
                   </div>
@@ -76,28 +74,42 @@
                   </div>
                 </div>
                 <!-- /.timer-wrap -->
+                <a href="#order-form2" class="mk-button just-scroll">заказать</a>
               </div>
             </div>
-            <!-- /.col-md-6 -->
-            <img src="images/product.png" alt="" class="header__product">
-            <div class="col-md-4 offset-md-2">
+            <!-- /.col-lg-6 -->
+            <img src="images/product.png" alt="" class="header__product" />
+            <div class="col-lg-4 offset-lg-4 col-md-6">
               <div class="header-cta">
-                <img src="images/arrow.png" alt="" class="arrow">
+                <img src="images/arrow-big.png" alt="" class="arrow" />
                 <div class="header-cta__wrap">
                   <div class="header-price">
-                    <div class="price"><span class="old"><s>2400p.</s></span><span class="new">1200p.</span></div>
+                    <div class="price">
+                      <span class="old"><s>2400p.</s></span
+                      ><span class="new">1200p.</span>
+                    </div>
                     <div class="discount"><span>-50%</span></div>
                   </div>
                   <!-- /.header-price -->
                   <form class="header-form" method="POST">
                     <div class="fields">
                       <label for="name">Ваше имя</label>
-                      <input type="text" name="name" placeholder="Имя" required>
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="Имя"
+                        required
+                      />
                     </div>
                     <!-- /.fields -->
                     <div class="fields">
                       <label for="phone">Ваш телефон</label>
-                      <input type="text" name="phone" placeholder="Телефон" required>
+                      <input
+                        type="text"
+                        name="phone"
+                        placeholder="Телефон"
+                        required
+                      />
                     </div>
                     <!-- /.fields -->
                     <button type="submit" class="mk-button">Заказать</button>
@@ -108,12 +120,11 @@
               </div>
               <!-- /.header-cta -->
             </div>
-            <!-- /.col-md-6 -->
           </div>
           <!-- /.row -->
         </div>
         <!-- /.container -->
-      </div>
+      </header>
       <!-- /.header -->
       <main>
         <section class="section stamps">
@@ -121,11 +132,11 @@
             <div class="row">
               <div class="col-md-12">
                 <ul class="stamps-list">
-                  <li><img src="images/stamp1.png" alt=""></li>
-                  <li><img src="images/stamp2.png" alt=""></li>
-                  <li><img src="images/stamp3.png" alt=""></li>
-                  <li><img src="images/stamp4.png" alt=""></li>
-                  <li><img src="images/stamp5.png" alt=""></li>
+                  <li><img src="images/quality/stamp1.png" alt="" /></li>
+                  <li><img src="images/quality/stamp2.png" alt="" /></li>
+                  <li><img src="images/quality/stamp3.png" alt="" /></li>
+                  <li><img src="images/quality/stamp4.png" alt="" /></li>
+                  <li><img src="images/quality/stamp5.png" alt="" /></li>
                 </ul>
                 <!-- /.stamps-list -->
               </div>
@@ -140,46 +151,86 @@
         <section class="section whatis">
           <div class="container">
             <div class="row">
-              <div class="col-md-6">
-                <div id="whatis__slider">
+              <div class="col-md-12 col-lg-6">
+                <div class="whatis__slider">
                   <ul class="whatis__slider-main">
                     <li class="slide">
-                      <img src="images/1.png" class="img-responsive" />
+                      <img src="images/slider/1.jpg" class="img-responsive" />
                     </li>
                     <li class="slide">
-                      <img src="images/2.png" class="img-responsive" />
+                      <img src="images/slider/2.jpg" class="img-responsive" />
                     </li>
                     <li class="slide">
-                      <img src="images/3.jpg" class="img-responsive" />
+                      <img src="images/slider/3.jpg" class="img-responsive" />
                     </li>
                     <li class="slide">
-                      <img src="images/4.jpg" class="img-responsive" />
+                      <img src="images/slider/4.jpg" class="img-responsive" />
                     </li>
                     <li class="slide">
-                      <img src="images/5.jpg" class="img-responsive" />
+                      <img src="images/slider/5.jpg" class="img-responsive" />
                     </li>
                     <li class="slide">
-                      <img src="images/6.jpg" class="img-responsive" />
+                      <img src="images/slider/6.jpg" class="img-responsive" />
                     </li>
                     <li class="slide">
-                      <img src="images/7.jpg" class="img-responsive" />
+                      <img src="images/slider/7.jpg" class="img-responsive" />
                     </li>
                     <li class="slide">
-                      <img src="images/8.jpg" class="img-responsive" />
+                      <img src="images/slider/8.jpg" class="img-responsive" />
+                    </li>
+                  </ul>
+                  <ul class="whatis__slider-nav">
+                    <li class="slide">
+                      <img src="images/slider/1.jpg" class="img-responsive" />
+                    </li>
+                    <li class="slide">
+                      <img src="images/slider/2.jpg" class="img-responsive" />
+                    </li>
+                    <li class="slide">
+                      <img src="images/slider/3.jpg" class="img-responsive" />
+                    </li>
+                    <li class="slide">
+                      <img src="images/slider/4.jpg" class="img-responsive" />
+                    </li>
+                    <li class="slide">
+                      <img src="images/slider/5.jpg" class="img-responsive" />
+                    </li>
+                    <li class="slide">
+                      <img src="images/slider/6.jpg" class="img-responsive" />
+                    </li>
+                    <li class="slide">
+                      <img src="images/slider/7.jpg" class="img-responsive" />
+                    </li>
+                    <li class="slide">
+                      <img src="images/slider/8.jpg" class="img-responsive" />
                     </li>
                   </ul>
                 </div>
               </div>
-              <!-- /.col-md-6 -->
-              <div class="col-md-6">
+              <!-- /.col-md-12 col-lg-6-->
+              <div class="col-md-12 col-lg-6">
                 <div class="whatis__text">
-                  <h2 class="section__title section__title--left">Что такое 3d увеличитель для смартфонов?</h2>
-                  <p>Превратите свой смартфон в огромный экран с помощью оптической лупы! Она работает как проектор и увеличивает экран телефона в 2-3 раза, что идеально для просмотра фильмов, видео и чтения.</p>
-                  <p>Благодаря специальному акриловому покрытию и технологии оптического увеличения картинка получается четкой и динамичной: вы не заметите различий в качестве изображения на самом смартфоне и 3D Smart Magnifier. Вам точно понравится, что устройство значительно снижает нагрузку на глаза и имеет удобную подставку для смартфона.</p>
+                  <h2 class="section__title section__title--left">
+                    Что такое 3d увеличитель для смартфонов?
+                  </h2>
+                  <p>
+                    Превратите свой смартфон в огромный экран с помощью
+                    оптической лупы! Она работает как проектор и увеличивает
+                    экран телефона в 2-3 раза, что идеально для просмотра
+                    фильмов, видео и чтения.
+                  </p>
+                  <p>
+                    Благодаря специальному акриловому покрытию и технологии
+                    оптического увеличения картинка получается четкой и
+                    динамичной: вы не заметите различий в качестве изображения
+                    на самом смартфоне и 3D Smart Magnifier. Вам точно
+                    понравится, что устройство значительно снижает нагрузку на
+                    глаза и имеет удобную подставку для смартфона.
+                  </p>
                 </div>
                 <!-- /.whatis__text -->
               </div>
-              <!-- /.col-md-6 -->
+              <!-- /.col-md-12 col-lg-6-->
             </div>
             <!-- /.row -->
           </div>
@@ -192,19 +243,31 @@
             <div class="row">
               <div class="col-md-12">
                 <ul class="vants-list">
-                  <li class="vants-list__item" style="background-image: url(images/vant1.jpg)">
+                  <li
+                    class="vants-list__item"
+                    style="background-image: url(images/vant1.jpg)"
+                  >
                     <span>Нет необходимости заряжать</span>
                   </li>
                   <!-- /.vants-list__item -->
-                  <li class="vants-list__item" style="background-image: url(images/vant2.jpg)">
+                  <li
+                    class="vants-list__item"
+                    style="background-image: url(images/vant2.jpg)"
+                  >
                     <span>Подходит для чтения</span>
                   </li>
                   <!-- /.vants-list__item -->
-                  <li class="vants-list__item" style="background-image: url(images/vant3.jpg)">
+                  <li
+                    class="vants-list__item"
+                    style="background-image: url(images/vant3.jpg)"
+                  >
                     <span>Можно взять в путешествие</span>
                   </li>
                   <!-- /.vants-list__item -->
-                  <li class="vants-list__item" style="background-image: url(images/vant4.jpg)">
+                  <li
+                    class="vants-list__item"
+                    style="background-image: url(images/vant4.jpg)"
+                  >
                     <span>Легко помещается в сумку</span>
                   </li>
                   <!-- /.vants-list__item -->
@@ -223,18 +286,20 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <h2 class="section__title">видео с 3d увеличителем для смартфонов</h2>
+                <h2 class="section__title">
+                  видео с 3d увеличителем для смартфонов
+                </h2>
               </div>
               <!-- /.col-md-12 -->
             </div>
             <!-- /.row -->
             <div class="row">
-              <div class="col-md-8">
+              <div class="col-lg-8 offset-lg-2 col-md-12">
                 <div class="video__wrap">
                   <div class="youtube" id="NO0_wj451kM"></div>
                 </div>
               </div>
-              <!-- /.col-md-8 -->
+              <!-- /.col-lg-8 -->
             </div>
             <!-- /.row -->
           </div>
@@ -246,59 +311,75 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <h2 class="section__title">Преимущества 3d увеличителя для смартфонов</h2>
+                <h2 class="section__title">
+                  Преимущества 3d увеличителя для смартфонов
+                </h2>
               </div>
               <!-- /.col-md-12 -->
             </div>
             <!-- /.row -->
             <div class="row">
-              <div class="col-md-8">
+              <div class="col-md-12">
                 <div class="vants2-wrap">
                   <div class="left">
-                    <div class="vants2__item">
-                      <img src="images/vant2-1.png" alt="">
+                    <div class="vants2__item pink">
+                      <img src="images/vant2/vant2-1.png" alt="" />
                       <h3>Компактная</h3>
                       <p>Лупу удобно носить в сумке и брать ее куда угодно</p>
                     </div>
                     <!-- /.vants2__item -->
-                    <div class="vants2__item">
-                      <img src="images/vant2-2.png" alt="">
+                    <div class="vants2__item purple">
+                      <img src="images/vant2/vant2-2.png" alt="" />
                       <h3>Защита</h3>
                       <p>Защищает глаза от усталости и перенапряжения</p>
                     </div>
                     <!-- /.vants2__item -->
                   </div>
                   <!-- /.left -->
-                  <div class="top">
-                    <div class="vants2__item">
-                      <img src="images/vant2-3.png" alt="">
-                      <h3>Функциональная</h3>
-                      <p>Можно использовать как лупу и подставку для смартфонов</p>
+                  <div class="right">
+                    <div class="top">
+                      <div class="vants2__item purple">
+                        <img src="images/vant2/vant2-3.png" alt="" />
+                        <h3>Функциональная</h3>
+                        <p>
+                          Можно использовать как лупу и подставку для смартфонов
+                        </p>
+                      </div>
+                      <!-- /.vants2__item -->
+                      <div class="vants2__item gray">
+                        <img src="images/vant2/vant2-4.png" alt="" />
+                        <h3>Качественная</h3>
+                        <p>
+                          Качественное и четкое оптическое увеличение
+                          изображения
+                        </p>
+                      </div>
+                      <!-- /.vants2__item -->
                     </div>
-                    <!-- /.vants2__item -->
-                    <div class="vants2__item">
-                      <img src="images/vant2-4.png" alt="">
-                      <h3>Качественная</h3>
-                      <p>Качественное и четкое оптическое увеличение изображения</p>
+                    <!-- /.top -->
+                    <div class="bottom">
+                      <div class="vants2__item gray">
+                        <img src="images/vant2/vant2-5.png" alt="" />
+                        <h3>Универсальная</h3>
+                        <p>
+                          Подходит для любых смартфонов вне зависимости от
+                          диагонали экрана
+                        </p>
+                      </div>
+                      <!-- /.vants2__item -->
+                      <div class="vants2__item pink">
+                        <img src="images/vant2/vant2-6.png" alt="" />
+                        <h3>Экологичные материалы</h3>
+                        <p>
+                          Изготовлена из экологически чистого дерева ТПУ,
+                          безопасна и долговечна
+                        </p>
+                      </div>
+                      <!-- /.vants2__item -->
                     </div>
-                    <!-- /.vants2__item -->
+                    <!-- /.bottom -->
                   </div>
-                  <!-- /.top -->
-                  <div class="bottom">
-                    <div class="vants2__item">
-                      <img src="images/vant2-5.png" alt="">
-                      <h3>Универсальная</h3>
-                      <p>Подходит для любых смартфонов вне зависимости от диагонали экрана</p>
-                    </div>
-                    <!-- /.vants2__item -->
-                    <div class="vants2__item">
-                      <img src="images/vant2-6.png" alt="">
-                      <h3>Экологичные материалы</h3>
-                      <p>Изготовлена из экологически чистого дерева ТПУ, безопасна и долговечна</p>
-                    </div>
-                    <!-- /.vants2__item -->
-                  </div>
-                  <!-- /.bottom -->
+                  <!-- /.right -->
                 </div>
                 <!-- /.vants2-wrap -->
               </div>
@@ -311,12 +392,15 @@
         <!-- /.section vants2 -->
 
         <section class="section cta-small">
+          <img src="images/bags.png" alt="" class="cta-small__image" />
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <h2 class="section__title section__title--light">Успей купить со скидкой 50%</h2>
-                <a href="#order-form" class="mk-button">заказать</a>
-                <img src="images/bags.png" alt="" class="cta-small__image">
+                <h2 class="section__title section__title--light">
+                  Успей купить со скидкой 50%
+                </h2>
+                <a href="#order-form" class="mk-button mk-button2 wigglewigglewiggle">заказать</a>
+                <a href="#order-form2" class="mk-button just-scroll wigglewigglewiggle">заказать</a>
               </div>
               <!-- /.col-md-12 -->
             </div>
@@ -330,41 +414,31 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <h2 class="section__title">Технические характеристики 3d smart magnifier</h2>
+                <h2 class="section__title">
+                  Технические характеристики 3d smart magnifier
+                </h2>
               </div>
               <div class="row">
-                <div class="col-md-6">
-                  <div class="specs__image"><img src="images/product2.png" alt=""></div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <div class="specs__image">
+                    <img src="images/product2.jpg" alt="" />
+                  </div>
                   <!-- /.specs__image -->
                 </div>
-                <!-- /.col-md-6 -->
-                <div class="col-md-6">
+                <!-- /.col-lg-6 col-md-12 -->
+                <div class="col-lg-6 col-md-12 col-sm-12">
                   <ul class="specs__list">
-                    <li>
-                      <p>- размер: 26 х 19 см</p>
-                    </li>
-                    <li>
-                      <p>- диагональ экрана: 12 дм</p>
-                    </li>
-                    <li>
-                      <p>- материал: экологически чистое дерево тпу</p>
-                    </li>
-                    <li>
-                      <p>- совместимость: все смартфоны</p>
-                    </li>
-                    <li>
-                      <p>- покрытие лупы: акриловое</p>
-                    </li>
-                    <li>
-                      <p>- батарея: нет</p>
-                    </li>
-                    <li>
-                      <p>- 3d-эффект для реалистичности изображения</p>
-                    </li>
+                    <li><p>- размер: 26 х 19 см</p></li>
+                    <li><p>- диагональ экрана: 12 дм</p></li>
+                    <li><p>- материал: экологически чистое дерево тпу</p></li>
+                    <li><p>- совместимость: все смартфоны</p></li>
+                    <li><p>- покрытие лупы: акриловое</p></li>
+                    <li><p>- батарея: нет</p></li>
+                    <li><p>- 3d-эффект для реалистичности изображения</p></li>
                   </ul>
                   <!-- /.specs__list -->
                 </div>
-                <!-- /.col-md-6 -->
+                <!-- /.col-lg-6 col-md-12 -->
               </div>
               <!-- /.row -->
             </div>
@@ -374,32 +448,32 @@
 
         <section class="section testimonials">
           <div class="container">
-            <div class="row">
-              <h2>Отзывы покупателей</h2>
-            </div>
+            <div class="row"><h2>Отзывы покупателей</h2></div>
             <!-- /.row -->
             <div class="row">
               <div class="testimonials-rating">
                 <div class="result">
                   <div class="result-value">4.5</div>
                   <div class="stars star5"></div>
-                  <div class="result-text"><span>На основании 8 отзывов</span></div>
+                  <div class="result-text">
+                    <span>На основании <br />8 отзывов</span>
+                  </div>
                 </div>
                 <div class="lines">
                   <div class="line">
                     <div class="line-score">5</div>
-                    <div class="line-progress"><b style="width: 62%;"></b></div>
-                    <div class="line-value">62%</div>
+                    <div class="line-progress"><b style="width: 91%;"></b></div>
+                    <div class="line-value">91%</div>
                   </div>
                   <div class="line">
                     <div class="line-score">4</div>
-                    <div class="line-progress"><b style="width: 25%;"></b></div>
-                    <div class="line-value">25%</div>
+                    <div class="line-progress"><b style="width: 88%;"></b></div>
+                    <div class="line-value">88%</div>
                   </div>
                   <div class="line">
                     <div class="line-score">3</div>
-                    <div class="line-progress"><b style="width: 13%;"></b></div>
-                    <div class="line-value">13%</div>
+                    <div class="line-progress"><b style="width: 16%;"></b></div>
+                    <div class="line-value">16%</div>
                   </div>
                   <div class="line">
                     <div class="line-score">2</div>
@@ -414,23 +488,60 @@
                 </div>
               </div>
               <!-- /.testimonials-rating -->
+              <div class="testimonials-submit">
+                <h2 class="testimonials-submit__title">Оставьте отзыв</h2>
+                <form onsubmit="return false;">
+                  <div class="fields">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" name="name" id="name" required>
+                  </div>
+                  <!-- /.fields -->
+                  <div class="fields">
+                    <label for="review">Ваш отзыв</label>
+                    <textarea name="review" id="review" required></textarea>
+                  </div>
+                  <!-- /.fields -->
+                  <div class="fields">
+                    <label for="nothing">Ваша оценка</label>
+                    <div class="rating">
+                      <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title=""></label>
+                      <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title=""></label>
+                      <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title=""></label>
+                      <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title=""></label>
+                      <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title=""></label>
+                    </div>
+                  </div>
+                  <!-- /.fields -->
+                  <button type="submit" class="mk-button submitReview">Отправить</button>
+                </form>
+              </div>
+              <!-- /.testimonials-submit -->
               <ul class="testimonials-list">
+
+                <!-- /.testimonials-list__item -->
                 <li class="testimonials-list__item">
                   <div class="review-header">
-                    <div class="review__avatar" style="background-image: url(images/reviews/ava1.png)"></div>
+                    <div class="review__avatar"></div>
                     <div class="review__data">
-                      <div class="revies__person">
-                        <span class="name">Адела,</span><span class="date">25.06.2943</span>
+                      <div class="review__person">
+                        <span class="name">Адела</span
+                        ><span class="date"></span>
                       </div>
-                      <!-- /.revies__person -->
-                      <span class="rating star4"></span>
+                      <!-- /.review__person -->
+                      <span class="rating star5"></span>
                     </div>
                     <!-- /.review__data -->
                   </div>
                   <!-- /.review-header -->
                   <div class="review-content">
-                    <p>Отличное устройство для увеличения экрана вашего мобильного телефонаю Очень компактный и может использоваться практически везде.</p>
-                    <div class="review-image" style="background-image: url(images/reviews/1.jpg);"></div>
+                    <p>
+                      Отличное устройство для увеличения экрана вашего
+                      мобильного телефонаю Очень компактный и может
+                      использоваться практически везде.
+                    </p>
+                    <div class="review-images">
+                      <img src="images/rev1.jpg" alt="" />
+                    </div>
                     <!-- /.review-image -->
                   </div>
                   <!-- /.review-content -->
@@ -438,20 +549,27 @@
                 <!-- /.testimonials-list__item -->
                 <li class="testimonials-list__item">
                   <div class="review-header">
-                    <div class="review__avatar" style="background-image: url(images/reviews/ava2.png)"></div>
+                    <div class="review__avatar"></div>
                     <div class="review__data">
-                      <div class="revies__person">
-                        <span class="name">Петр,</span><span class="date">25.06.2943</span>
+                      <div class="review__person">
+                        <span class="name">Петр</span
+                        ><span class="date">25.06.2943</span>
                       </div>
-                      <!-- /.revies__person -->
+                      <!-- /.review__person -->
                       <span class="rating star4"></span>
                     </div>
                     <!-- /.review__data -->
                   </div>
                   <!-- /.review-header -->
                   <div class="review-content">
-                    <p>Я использую устройство для просмотра фильмов на своем телефоне и могу сказать, что оно отлично работает, значительно увеличивает изображение.</p>
-                    <div class="review-image" style="background-image: url(images/reviews/2.jpg);"></div>
+                    <p>
+                      Я использую устройство для просмотра фильмов на своем
+                      телефоне и могу сказать, что оно отлично работает,
+                      значительно увеличивает изображение.
+                    </p>
+                    <div class="review-images">
+                      <img src="images/rev2.jpg" alt="" />
+                    </div>
                     <!-- /.review-image -->
                   </div>
                   <!-- /.review-content -->
@@ -459,20 +577,27 @@
                 <!-- /.testimonials-list__item -->
                 <li class="testimonials-list__item">
                   <div class="review-header">
-                    <div class="review__avatar" style="background-image: url(images/reviews/ava3.png)"></div>
+                    <div class="review__avatar"></div>
                     <div class="review__data">
-                      <div class="revies__person">
-                        <span class="name">Миша,</span><span class="date">25.06.2943</span>
+                      <div class="review__person">
+                        <span class="name">Миша</span
+                        ><span class="date">25.06.2943</span>
                       </div>
-                      <!-- /.revies__person -->
-                      <span class="rating star4"></span>
+                      <!-- /.review__person -->
+                      <span class="rating star5"></span>
                     </div>
                     <!-- /.review__data -->
                   </div>
                   <!-- /.review-header -->
                   <div class="review-content">
-                    <p>Я не ожидал, что экран будет работать так хорошо. Значительно увеличивает видео со смартфона. Я использую это в университете во время курсов дизайна.</p>
-                    <div class="review-image" style="background-image: url(images/reviews/3.jpg);"></div>
+                    <p>
+                      Я не ожидал, что экран будет работать так хорошо.
+                      Значительно увеличивает видео со смартфона. Я использую
+                      это в университете во время курсов дизайна.
+                    </p>
+                    <div class="review-images">
+                      <img src="images/rev3.jpg" alt="" />
+                    </div>
                     <!-- /.review-image -->
                   </div>
                   <!-- /.review-content -->
@@ -496,114 +621,140 @@
               <!-- /.col-md-12 -->
             </div>
             <!-- /.row -->
-            <div class="order-list">
+            <ul class="order-list">
               <div class="row">
-                <li class="col-md-3">
+                <li class="col-lg-3 col-md-6">
                   <div class="order-list__item">
-                    <img src="images/order1.png" alt="">
+                    <img src="images/order1.png" alt="" />
                     <h3>Заявка</h3>
                     <p>Оставьте заявку на сайте, заполнив простые поля.</p>
                   </div>
                   <!-- /.order-list__item -->
                 </li>
-                <!-- /.col-md-3 -->
-                <li class="col-md-3">
+                <!-- /.col-lg-3 col-md-6 -->
+                <li class="col-lg-3 col-md-6">
                   <div class="order-list__item">
-                    <img src="images/order2.png" alt="">
+                    <img src="images/order2.png" alt="" />
                     <h3>Звонок менеджера</h3>
-                    <p>Наш менеджер позвонит вам, чтобы уточнить данные заказа и информацию о доставке.</p>
+                    <p>
+                      Наш менеджер позвонит вам, чтобы уточнить данные заказа и
+                      информацию о доставке.
+                    </p>
                   </div>
                   <!-- /.order-list__item -->
                 </li>
-                <!-- /.col-md-3 -->
-                <li class="col-md-3">
+                <!-- /.col-lg-3 col-md-6 -->
+                <li class="col-lg-3 col-md-6">
                   <div class="order-list__item">
-                    <img src="images/order3.png" alt="">
+                    <img src="images/order3.png" alt="" />
                     <h3>Отправка</h3>
-                    <p>Заявки, полученные до 13:00, мы обрабатываем в тот же день. После 13:00 &ndash; на следующий.</p>
+                    <p>
+                      Заявки, полученные до 13:00, мы обрабатываем в тот же
+                      день. После 13:00 &ndash; на следующий.
+                    </p>
                   </div>
                   <!-- /.order-list__item -->
                 </li>
-                <!-- /.col-md-3 -->
-                <li class="col-md-3">
+                <!-- /.col-lg-3 col-md-6 -->
+                <li class="col-lg-3 col-md-6">
                   <div class="order-list__item">
-                    <img src="images/order4.png" alt="">
+                    <img src="images/order4.png" alt="" />
                     <h3>Получение</h3>
-                    <p>Когда ваш заказ доставят, вы сможете открыть и посмотреть товар, а уже после &ndash; оплатить!.</p>
+                    <p>
+                      Когда ваш заказ доставят, вы сможете открыть и посмотреть
+                      товар, а уже после &ndash; оплатить!.
+                    </p>
                   </div>
                   <!-- /.order-list__item -->
                 </li>
-                <!-- /.col-md-3 -->
+                <!-- /.col-lg-3 col-md-6 -->
               </div>
               <!-- /.row -->
-            </div>
+            </ul>
             <!-- /.order-list -->
           </div>
           <!-- /.container -->
         </section>
         <!-- /.section order -->
 
-        <section class="section header-bottom">
+        <section class="section header">
           <div class="container">
             <div class="row">
-              <div class="col-md-6">
-                <div class="header__logo"><img src="images/logo.png" alt=""></div>
+              <div class="col-lg-4 col-md-6">
+                <a href="." class="header__logo"
+                  ><img src="images/logo.png" alt=""
+                /></a>
                 <h2 class="header__title">3D увеличитель для смартфона</h2>
-                <h3 class="header__subtitle">Смотрите ваши любимые фильмы и фото в хорошем качестве где угодно!</h3>
+                <h3 class="header__subtitle">
+                  Смотрите ваши любимые фильмы и фото в хорошем качестве где
+                  угодно!
+                </h3>
                 <ul class="header-list">
-                  <li>
-                    <p>Стильный и легкий</p>
-                  </li>
-                  <li>
-                    <p>Компактный. Легко носить с собой</p>
-                  </li>
-                  <li>
-                    <p>Подходит для всех видов мобильных телефонов</p>
-                  </li>
+                  <li><p>Стильный и легкий</p></li>
+                  <li><p>Компактный. Легко носить с собой</p></li>
+                  <li><p>Подходит для всех видов мобильных телефонов</p></li>
                 </ul>
                 <!-- /.header-list -->
                 <div class="timer">
                   <p class="timer__remain">Предложение действительно:</p>
-                  <div class="timer__block">
-                    <div class="timer__digits">
-                      <span class="hour1">0</span><span class="hour2">0</span>
+                  <div class="timer-wrap">
+                    <div class="timer__block">
+                      <div class="timer__digits">
+                        <span class="hour1">0</span> <span class="hour2">0</span>
+                      </div>
+                      <span class="timer__text">часов</span>
                     </div>
-                    <span class="timer__text">часов</span>
-                  </div>
-                  <div class="timer__block">
-                    <div class="timer__digits">
-                      <span class="minute1">0</span><span class="minute2">0</span>
+                    <div class="timer__block">
+                      <div class="timer__digits">
+                        <span class="minute1">0</span>
+                        <span class="minute2">0</span>
+                      </div>
+                      <span class="timer__text">минут</span>
                     </div>
-                    <span class="timer__text">минут</span>
-                  </div>
-                  <div class="timer__block">
-                    <div class="timer__digits">
-                      <span class="second1">0</span><span class="second2">0</span>
+                    <div class="timer__block">
+                      <div class="timer__digits">
+                        <span class="second1">0</span>
+                        <span class="second2">0</span>
+                      </div>
+                      <span class="timer__text">секунд</span>
                     </div>
-                    <span class="timer__text">секунд</span>
                   </div>
+                  <!-- /.timer-wrap -->
                 </div>
               </div>
-              <!-- /.col-md-6 -->
-              <img src="images/product.png" alt="" class="header__product">
-              <div class="col-md-6">
+              <!-- /.col-lg-6 -->
+              <img src="images/product.png" alt="" class="header__product" />
+              <div class="col-lg-4 offset-lg-4 col-md-6">
                 <div class="header-cta">
-                  <img src="images/arrow.png" alt="" class="arrow">
+                  <img src="images/arrow-big.png" alt="" class="arrow" />
                   <div class="header-cta__wrap">
                     <div class="header-price">
-                      <div class="price"><span class="old"><s>2400p.</s></span><span class="new">1200p.</span></div>
-                      <div class="discount">-50%</div>
+                      <div class="price">
+                        <span class="old"><s>2400p.</s></span
+                        ><span class="new">1200p.</span>
+                      </div>
+                      <div class="discount"><span>-50%</span></div>
                     </div>
                     <!-- /.header-price -->
-                    <form class="header-form" method="POST">
+                    <form class="header-form" method="POST" id="order-form">
                       <div class="fields">
                         <label for="name">Ваше имя</label>
-                        <input type="text" name="name" placeholder="Имя" required>
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="Имя"
+                          required
+                        />
                       </div>
                       <!-- /.fields -->
                       <div class="fields">
                         <label for="phone">Ваш телефон</label>
-                        <input type="text" name="phone" placeholder="Телефон" required>
+                        <input
+                          type="text"
+                          name="phone"
+                          placeholder="Телефон"
+                          required
+                        />
                       </div>
                       <!-- /.fields -->
                       <button type="submit" class="mk-button">Заказать</button>
@@ -614,7 +765,6 @@
                 </div>
                 <!-- /.header-cta -->
               </div>
-              <!-- /.col-md-6 -->
             </div>
             <!-- /.row -->
           </div>
@@ -622,41 +772,58 @@
         </section>
         <!-- /.section header -->
 
-        <section class="section form" id="order-form">
+        <section class="section form" id="order-form2">
           <div class="container">
             <div class="row">
-              <div class="com-md-8">
+              <div class="col-md-12">
+                <h2 class="section__title">Заполните форму</h2>
+              </div>
+              <!-- /.col-md-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+              <div class="col-md-8 offset-md-2">
                 <form method="post">
                   <div class="fields">
                     <label for="name">Имя</label>
-                    <input type="text" name="name" id="name" placeholder="Введите имя" required>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Введите имя"
+                      required
+                    />
                   </div>
-                  <!-- /.fields -->
                   <div class="fields">
                     <label for="phone">Телефон</label>
-                    <input type="text" name="phone" id="phone" placeholder="Введите телефон" required>
+                    <input
+                      type="text"
+                      name="phone"
+                      id="phone"
+                      placeholder="Введите телефон"
+                      required
+                    />
                   </div>
-                  <!-- /.fields -->
+                  <button type="submit" class="mk-button">Заказать</button>
                 </form>
               </div>
-              <!-- /.com-md-8 -->
             </div>
-            <!-- /.row -->
           </div>
-          <!-- /.container -->
         </section>
-        <!-- /#order-form.section form -->
       </main>
 
       <footer class="footer">
-        <div class="container row">
-          <div class="col-md-12">
-            <p></p>
-            <p></p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>ST. GERARDE LTD, PO Box 832, Orion Mall, Palm Street, Victoria, Mahé, Seychelles</p>
+              <p>Заполнив форму, вы соглашаетесь на обработку персональных данных в соответствии с <a href="policy_ru.html" target="_blank" style="text-decoration: underline">Политикой конфиденциальности</a></p>
+            </div>
+            <!-- /.col-md-12 -->
           </div>
-          <!-- /.col-md-12 -->
+          <!-- /.row -->
         </div>
-        <!-- /.container row -->
+        <!-- /.container -->
       </footer>
       <!-- /.footer -->
     </div>
@@ -666,12 +833,16 @@
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/bower_components/wow/dist/wow.min.js"></script>
+    <script src="/bower_components/slick-carousel/slick/slick.min.js"></script>
+    <script src="/bower_components/moment/min/moment.min.js"></script>
+    <script src="/bower_components/moment/min/moment-with-locales.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
+    <script src="scripts/jquery.countdown.min.js"></script>
+    <script src="scripts/previewYouTube.js"></script>
     <!-- endbuild -->
   </body>
 </html>
