@@ -84,6 +84,8 @@ $(document).on('ready', function() {
     var contentVal = $('.testimonials-submit #review').val();
     setTimeout(() => {
       createReviewItem(nameVal, contentVal, reviewRating);
+      $('.reviewForm, input, textarea').val('');
+      $('[name="rating"]').prop('checked', false);
     }, 1500);
   });
 

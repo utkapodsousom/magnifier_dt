@@ -802,10 +802,13 @@ textarea {
 }
 
 .rating > label {
-  color: #ddd;
  float: right;
  display: inline;
  width: auto;
+}
+
+.rating > input ~ label {
+  color: #ddd;
 }
 
 /***** CSS Magic to Highlight Stars on Hover *****/
